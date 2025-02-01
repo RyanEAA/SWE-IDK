@@ -58,7 +58,6 @@ header h1 a:hover {
     padding: 10px;
     border: 3px solid #ddd;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
     width: 250px;
     flex-shrink: 0;
 }
@@ -68,6 +67,15 @@ header h1 a:hover {
     height: auto;
     border-bottom: 2px solid #ddd;
 }
+.polaroid p {
+    text-align: left;
+}
+
+/* .polaroid a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+} */
 
 .polaroid:hover {
     transform: rotate(-3deg);
@@ -93,6 +101,7 @@ header h1 a:hover {
 .card-text {
     font-size: 18px;
     margin-bottom: 15px;
+    max-width: 850px;
 }
 
 /* Scrapbook-Style Image Section */
@@ -112,9 +121,6 @@ header h1 a:hover {
     transition: transform 0.3s;
 }
 
-.image-gallery img:hover {
-    transform: rotate(-3deg);
-}
 
 /* Footer */
 footer {
